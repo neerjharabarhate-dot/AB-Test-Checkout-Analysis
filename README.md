@@ -21,33 +21,20 @@ The project was developed using the following tools and technologies:
 - 📊 **Matplotlib** – Statistical result visualisation.
 - 📉 **Power BI** – Interactive dashboard development and business insight presentation.
 - 📝 **Jupyter Notebook** – Python analysis and documentation.
+- 
+## 3. Dataset Overview
 
-## 3. Data Source & Attribution
+The project uses a synthetic e-commerce A/B testing dataset containing 12,000 user records across two experiment groups: Control and Treatment.
 
-**Dataset Source:** [Tajamul Khan – Top 10 Data & AI Projects](https://github.com/tajamulkhann/Top-10-Data-AI-Projects/tree/main/data-analytics/09-ab-test-checkout/data)
-
-The dataset used in this project was obtained from the `09-ab-test-checkout/data` directory of the GitHub repository maintained by **[Tajamul Khan](https://github.com/tajamulkhann)**.
-
-**Dataset Overview:**
-
-- Total Records: 12,000 users
-- Total Columns: 3
-- Experiment Groups: Control and Treatment
-- Conversion Outcome: Binary (0 = Not Converted, 1 = Converted)
-
-**Dataset Columns:**
+The dataset consists of three columns:
 
 | Column | Description |
 |---|---|
-| user_id | Unique identifier assigned to each user |
-| variant | Experiment group (Control or Treatment) |
-| converted | Indicates whether the user completed a purchase |
+| `user_id` | Unique identifier assigned to each user |
+| `variant` | Experiment group assigned to the user (Control or Treatment) |
+| `converted` | Indicates whether the user completed a purchase (1 = Yes, 0 = No) |
 
-**Dataset Availability:** The original dataset has not been uploaded to this repository. Please refer to the original source link above to access it.
-
-The dataset represents a synthetic e-commerce checkout experiment and does not contain actual customer or business records.
-
-**Project Implementation:** This repository presents my implementation of the A/B testing project, including SQL-based analysis, Python statistical testing, hypothesis evaluation, Power BI visualizations, and business-focused insights. Credit for the original dataset goes to its respective source.
+The dataset captures user-level experiment assignments and conversion outcomes, providing the foundation for comparing checkout performance and evaluating the effectiveness of the modified experience.
 
 ## 4. Features & Analytical Highlights
 
