@@ -175,23 +175,19 @@ The repository includes visual previews of the Power BI dashboard and supporting
 
 ## 7. Repository Structure
 
-```text
 AB-Test-Checkout-Analysis/
 │
 ├── README.md
 │
-├── Python/
-│   └── ab_testing_python_analysis.ipynb
+├── ab_testing_python_analysis.ipynb
 │
-├── SQL/
-│   └── AB_Test_SQL_Analysis.sql
+├── AB_Test_SQL_Analysis.sql
 │
-├── PowerBI/
-│   └── AB_Test_Powerbi_Dashboard.pbix
+├── AB_Test_Powerbi_Dashboard.pbix
 │
 └── Screenshots/
+    ├── Home_Page.png
     ├── Experiment_Overview.png
     └── Statistical_Evidence.png
-```
-
+    
 **Note:** The original dataset is not included in this repository. Refer to the Data Source & Attribution section for the original dataset location.
